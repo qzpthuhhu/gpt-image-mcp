@@ -123,7 +123,12 @@ async def generate_image_tool(
 def main():
     """启动 MCP Server"""
     import mcp.server.stdio
-    asyncio.run(server.run(mcp.server.stdio.stdio_server()))
+    async def run_server():
+        server = Server("gpt-image-mcp")
+        init_options = server.create_initialization_options()
+        async with stdio_server() as (read_stream, write_stream):
+            await server.run(read_stream, write_stream, init_options)
+    asyncio.run(run_server())
 
 if __name__ == "__main__":
     main()
