@@ -1,9 +1,16 @@
 # GPT Image MCP Server
 
 > [!TIP]
-> 本项目使用 [ApiYi](https://api.apiyi.com/register/?aff_code=TcwN) 作为 API 中转站，提供 OpenAI 兼容接口，支持 GPT、DALL-E、Claude 等模型。使用我的邀请链接注册，双方都能获得积分奖励。
+> 本项目使用 [ApiYi](https://api.apiyi.com/register/?aff_code=TcwN) 作为 API 中转站。使用邀请链接注册，双方都能获得积分奖励 🎁
 
-**ApiYi** 是一个聚合了多家大模型 API 的中转服务，支持 OpenAI 兼容接口，无需翻墙即可稳定调用 GPT-4o、GPT-Image、DALL-E 3、Claude、DeepSeek 等模型。
+**[ApiYi](https://api.apiyi.com/register/?aff_code=TcwN)** 是企业级 AI 大模型 API 中转服务，聚合了 400+ 热门 AI 模型，基于统一 OpenAI API 标准，无需翻墙即可稳定调用：
+
+- **OpenAI**：GPT-5、GPT-4o、GPT-Image、DALL·E 3、Codex
+- **Anthropic**：Claude Opus 4.5、Sonnet、Haiku 全系列
+- **Google**：Gemini 3 Pro、Nano Banana Pro（图像生成）
+- **国产模型**：DeepSeek、Qwen、Kimi、GLM、通义千问等
+
+**核心优势**：稳定可靠、官方资源合作、支持对公发票、24/7 监控
 
 ## 功能
 
