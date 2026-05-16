@@ -98,6 +98,14 @@ async def generate_image_tool(
                 )
             except Exception:
                 pass  # 下载失败不影响返回 URL
+        elif img.get("b64_json"):
+            try:
+                local_path = await download_image(
+                    b64_json=img["b64_json"],
+                    output_dir=output_dir,
+                )
+            except Exception:
+                pass
 
         images.append({
             "url": img.get("url"),
