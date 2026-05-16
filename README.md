@@ -1,6 +1,9 @@
 # GPT Image MCP Server
 
-MCP Server 封装 GPT Image API，使 Agent 能通过 MCP 协议调用图像生成功能。
+> [!TIP]
+> 本项目使用 [ApiYi](https://api.apiyi.com/register/?aff_code=TcwN) 作为 API 中转站，提供 OpenAI 兼容接口，支持 GPT、DALL-E、Claude 等模型。使用我的邀请链接注册，双方都能获得积分奖励。
+
+**ApiYi** 是一个聚合了多家大模型 API 的中转服务，支持 OpenAI 兼容接口，无需翻墙即可稳定调用 GPT-4o、GPT-Image、DALL-E 3、Claude、DeepSeek 等模型。
 
 ## 功能
 
