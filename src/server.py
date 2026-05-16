@@ -122,7 +122,7 @@ async def generate_image_tool(
 
 def main():
     """启动 MCP Server"""
-    import mcp.server.stdio
+    from mcp.server.stdio import stdio_server
     async def run_server():
         server = Server("gpt-image-mcp")
         init_options = server.create_initialization_options()
